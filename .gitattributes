@@ -1,0 +1,4 @@
+mp4 filter=lfs diff=lfs merge=lfs -text
+.mp4 filter=lfs diff=lfs merge=lfs -text
+public/Videos/ceosvideoprop.mp4 filter=lfs diff=lfs merge=lfs -text
+public/Videos/EdCorporativa.mp4 filter=lfs diff=lfs merge=lfs -text
