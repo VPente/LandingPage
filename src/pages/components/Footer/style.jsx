@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const FooterAll = styled.footer`
   padding:2.5rem;
   background-color:#652F87;
-
+ 
 `
 
 export const FooterWrapper = styled.section`
@@ -11,10 +11,16 @@ export const FooterWrapper = styled.section`
   justify-content: space-between;
   margin-bottom:2rem;
   margin-left:10%;
+  @media(max-width: 425px){
+    margin-left:0;
+    flex-direction:column;
+    }
+
 `;
 
 export const ColumnOne = styled.div`
   flex: 1;
+ 
 `;
 export const ColumnTwo = styled.div`
   margin-top:1rem;
@@ -48,6 +54,10 @@ export const TittleFooter = styled.h2`
     color: rgb(211, 210, 210);
 
     margin-bottom:1rem;
+
+    @media(max-width: 425px){
+      font-size: 18px;
+    }
 `
 
 export const ContactTopic = styled.a`
@@ -58,9 +68,18 @@ export const ContactTopic = styled.a`
     align-items: center;
     gap: 0.5rem;
 
+    @media(max-width: 425px){
+      font-size: 13px;
+    }
+
+    
+
 `
 export const IconBox = styled.span`
 align-items:center;
+@media(max-width: 425px){
+     width:60%; 
+    }
 `
 export const SubFooter = styled.div`
 background-color: ${({theme}) => theme.colors.primary};
@@ -69,6 +88,11 @@ white-space:nowrap;
 display:flex;
 justify-content:space-between;
 margin-left:10%;
+
+@media(max-width: 425px){
+    margin-left:0;
+    flex-direction:column;
+    }
 
 
 `

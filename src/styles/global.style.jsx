@@ -24,10 +24,16 @@ export const GlobalStyle = createGlobalStyle`
 
     width:90px;
     height:90px;
-    
-    
-    
-    
+    @media(max-width: 768px){
+        width:70px;
+        height:70px;
+      }
+      @media(max-width: 425px){
+        width:70px;
+        height:70px;
+        margin-top:2rem;
+        
+}   
 
 }
 .ImgTopic{
@@ -37,6 +43,11 @@ export const GlobalStyle = createGlobalStyle`
     justify-content:center;
     align-items:center;
 
+    @media(max-width: 768px){
+        width:55px;
+        height:55px;
+      }
+
 }
 .textDiv{
     display:flex;
@@ -45,15 +56,43 @@ export const GlobalStyle = createGlobalStyle`
 }
 .mainImg{
     width:90%;
+    @media(max-width: 425px){
+        width:47vh!important;
+      }
+      @media(max-width: 375px){
+        width:45vh!important;
+    }
+    @media(max-width: 320px){
+        width:50vh!important;
+
+    }
 }
 
 .footerImg{
     width:20%;
+    @media(max-width: 425px){
+        width:40%;
+    }
 }
 .react-player{
-width:4px;
-height:4rem;
-  top: 1;
-  left: 2;
+    @media(max-width: 1440px){
+    width:70vh!important;
+      }
+    @media(max-width: 1024px){
+    width:40vh!important;
+      }
+    @media(max-width: 768px){
+    width:50vh!important;
+      }
+      @media(max-width: 425px){
+    width:40vh!important;
+    }
+    @media(max-width: 320px){
+        width:100%!important;
+
+
+    }
+
 }
+
 `

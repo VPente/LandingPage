@@ -26,8 +26,32 @@ export const ButtonOne = styled.button`
         padding: 20px;
         width: 30%;
 
+    }
+    @media(max-width: 1024px){
+        font-size: 18px;
+        padding: 15px;
+        width: 30%;
 
     }
+    @media(max-width: 768px){
+        font-size: 18px;
+        padding: 15px;
+        width: 40%;
+
+      }
+      @media(max-width: 425px){
+      font-size: 15px;
+      padding: 15px;
+        width: 50%;
+        
+    }
+    @media(max-width: 320px){
+        font-size: 14px;
+      padding: 10px;
+        width: 60%;
+
+    }
+
 `
 
 export const ButtonTwo = styled.button`
@@ -58,7 +82,25 @@ export const ButtonTwo = styled.button`
         font-size: 18px;
         padding: 20px;
         width: 50%;
+        
 
+
+    }
+@media(max-width: 1024px){
+        font-size: 14px;
+        padding: 15px;
+        width: 60%;
+    }
+@media(max-width: 768px){
+    display:flex;
+    justify-content:center;
+    align-items:center;
+      }
+
+      @media(max-width: 320px){
+        font-size: 14px;
+        padding: 10px;
+        width: 80%;
 
     }
 `
@@ -94,6 +136,24 @@ export const ButtonTrhee = styled.button`
         padding: 20px;
         width: 70%;
 
+
+    }
+    @media(max-width: 1440px){
+        font-size: 18px;
+        padding: 15px;
+        width: 70%;
+
+
+    }
+    @media(max-width: 425px){
+        font-size: 16px;
+        padding: 10px;
+        width: 60%;
+      }
+      @media(max-width: 320px){
+        font-size: 13px;
+        padding: 6px;
+        width: 60%;
 
     }
 `

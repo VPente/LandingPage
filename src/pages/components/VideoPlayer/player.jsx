@@ -8,16 +8,29 @@ const VideoWrapper = styled.section`
   justify-content: center;
   align-items: center;
   
-
+  
   margin-right:4rem;
 
   width:100%;
   height:100%;
   @media(max-width: 1440px){
     margin-right:0rem;
+    margin-top:1.2rem;
+
+    }
+      @media(max-width: 1024px){
+    margin-top:1.8rem;
 
       }
-
+      @media(max-width: 768px){
+        margin-top:5rem;
+      }
+      @media(max-width: 425px){
+        margin-left:0rem;
+       justify-content: center;
+       
+    }
+      
 `;
 
 const VideoContainer = styled.div`
@@ -31,7 +44,10 @@ const VideoContainer = styled.div`
   justify-content:center;
   align-items:center;
   
-  
+  @media(max-width: 425px){
+    width:40vh!important;
+       
+    }
   
 `;
 
@@ -42,7 +58,7 @@ const VideoPlayer = () => {
             <ReactPlayer 
             className ='react-player' 
             url={'../../../public/Videos/EdCorporativa.mp4'} 
-            width='100%'
+            width= '100%'
             // playing
             height='100%'
             controls 
