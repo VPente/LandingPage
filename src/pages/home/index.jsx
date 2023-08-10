@@ -1,14 +1,12 @@
-import { useRef, useEffect, useState } from 'react';
+
 import { Wrapper } from '../components/Wrapper';
 import Topic from '../components/topic/Topic';
 import Footer from '../components/Footer/footer';
 import VideoPlayer from '../components/VideoPlayer/player';
-import { Link } from '../components/Link/Link';
 import {Button} from '../components/Button/Button';
-import { Header, Main, Title ,TitleTwo,TitleTwoBack, TitleThree, TitleStrong,TopicHeader, BtnWrapper,BtnWrapper2,BtnWrapper3, ImgWrapper, AboutUs, Text, } from '../../styles/styles';
+import { Header, Main, Title ,TitleTwo,TitleTwoBack, TitleThree, TitleStrong,TopicHeader, BtnWrapper,BtnWrapper2,BtnWrapper3, ImgWrapper, AboutUs, } from '../../styles/styles';
 import { FirstContainer, SecondContainer, AboutSection } from '../../styles/styles';
 import { ButtonOne, ButtonTwo, ButtonTrhee } from '../components/Button/style';
-import { LinkOne,LinkTwo, LinkThree } from '../components/Link/Link';
 
 
 
