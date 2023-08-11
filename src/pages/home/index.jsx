@@ -10,6 +10,7 @@ import { ButtonOne, ButtonTwo, ButtonTrhee } from '../components/Button/style';
 
 
 
+
 export function Home() {
   return (
     <Wrapper>

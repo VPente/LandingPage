@@ -1,5 +1,5 @@
 {
-  "homepage": "https://vpente.github.io/LandingPage/",
+  
   "name": "gitapiint",
   "private": true,
   "version": "0.0.0",
@@ -7,9 +7,7 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview",
-    "predeploy":"npm run build",
-    "deploy":"gh-pages -d build"
+    "preview": "vite preview"
   },
   "dependencies": {
     "@fortawesome/fontawesome-free": "^6.4.0",
