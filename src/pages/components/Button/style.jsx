@@ -39,7 +39,7 @@ export const ButtonOne = styled.button`
         width: 40%;
 
       }
-      @media(max-width: 425px){
+      @media(max-width: 430px){
       font-size: 15px;
       padding: 15px;
         width: 50%;
@@ -145,7 +145,7 @@ export const ButtonTrhee = styled.button`
 
 
     }
-    @media(max-width: 425px){
+    @media(max-width: 430px){
         font-size: 16px;
         padding: 10px;
         width: 60%;

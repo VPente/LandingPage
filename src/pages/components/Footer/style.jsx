@@ -11,7 +11,7 @@ export const FooterWrapper = styled.section`
   justify-content: space-between;
   margin-bottom:2rem;
   margin-left:10%;
-  @media(max-width: 425px){
+  @media(max-width: 430px){
     margin-left:0;
     flex-direction:column;
     }
@@ -55,7 +55,7 @@ export const TittleFooter = styled.h2`
 
     margin-bottom:1rem;
 
-    @media(max-width: 425px){
+    @media(max-width: 430px){
       font-size: 18px;
     }
 `
@@ -68,7 +68,7 @@ export const ContactTopic = styled.a`
     align-items: center;
     gap: 0.5rem;
 
-    @media(max-width: 425px){
+    @media(max-width: 430px){
       font-size: 13px;
     }
 
@@ -77,7 +77,7 @@ export const ContactTopic = styled.a`
 `
 export const IconBox = styled.span`
 align-items:center;
-@media(max-width: 425px){
+@media(max-width: 430px){
      width:60%; 
     }
 `
@@ -89,7 +89,7 @@ display:flex;
 justify-content:space-between;
 margin-left:10%;
 
-@media(max-width: 425px){
+@media(max-width: 430px){
     margin-left:0;
     flex-direction:column;
     }

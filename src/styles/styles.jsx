@@ -42,13 +42,22 @@ export const Main = styled.section`
     background-position-y:57%;
     background-size: 300px 200px;
       }
-      @media(max-width: 425px){
+      @media(max-width: 430px){
         width:100%; 
         margin-right:0rem;
     background-position-x:99%;
     background-position-y:40%;
     background-size: 100px 200px;
 }
+
+@media(max-width: 360px){
+    
+        margin-right:0rem;
+    background-position-x:99%;
+    background-position-y:39%;
+    background-size: 100px 200px;
+
+    }
 
 @media(max-width: 320px){
     width:100%; 
@@ -75,7 +84,7 @@ export const Title = styled.h1`
     line-height: normal;
     justify-content:center;
 
-    @media(max-width: 425px){
+    @media(max-width: 430px){
         font-size: 16px!important;
         width:46%;
         margin-top: 1rem;
@@ -106,13 +115,12 @@ export const TitleTwo = styled.h1`
 
       }
     
-      @media(max-width: 425px){
+      @media(max-width: 430px){
         font-size: 24px!important;
         margin:0;
 }
 @media(max-width: 375px){
     font-size: 22px!important;
-    order:1;
     }
     @media(max-width: 320px){
         font-size: 18px!important;
@@ -137,13 +145,15 @@ export const TitleTwoBack = styled.span`
         font-size: 25px!important;
     }
 
-    @media(max-width: 425px){
-        font-size: 24px!important;
+    @media(max-width: 430px){
+        font-size: 21px!important;
 }
     @media(max-width: 375px){
-    font-size: 22px!important;
+    font-size: 20px!important;
     }
-    @media(max-width: 320px){
+    
+
+    @media(max-width: 360px){
         font-size: 19px!important;
 
     }
@@ -165,14 +175,14 @@ export const TitleThree = styled.h1`
     @media(max-width: 1024px){
         font-size: 25px!important;
     }
-    @media(max-width: 425px){
-        font-size: 23px!important;
+    @media(max-width: 430px){
+        font-size: 21px!important;
         
 }
 @media(max-width: 375px){
-    font-size: 22px!important;
+    font-size: 20px!important;
     }
-    @media(max-width: 320px){
+    @media(max-width: 360px){
         font-size: 19px!important;
 
     }
@@ -189,7 +199,7 @@ export const TitleStrong = styled.strong`
         font-size: 60px!important;
     }
 
-    @media(max-width: 425px){
+    @media(max-width: 430px){
         font-size: 30px!important;
         text-wrap: nowrap;
         margin-top: 1rem;
@@ -217,7 +227,7 @@ export const FirstContainer = styled.section`
     margin: 20px 0 25px;
     align-items: center;
     display:flex;
-    @media(max-width: 425px){
+    @media(max-width: 430px){
         align-items:flex-start;
          display:flex;
          flex-direction:column;
@@ -229,7 +239,7 @@ export const FirstContainer = styled.section`
 export const SecondContainer = styled.section`
     /* border: 1px solid #FFF; */
     padding:0 10rem 10rem 10rem;
-    @media(max-width: 425px){
+    @media(max-width: 430px){
         padding:0 0.5rem 1rem 0.5rem;
         display:flex;
         flex-direction:column;
@@ -244,7 +254,7 @@ export const ThirdContainer = styled.section`
     align-items:flex-start;
     margin-top:2rem;
     margin-left:6rem;
-@media(max-width: 425px){
+@media(max-width: 430px){
         margin-left:2rem;
 }   
 `
@@ -267,7 +277,7 @@ export const TopicHeader = styled.section`
     margin-top:2rem;
     align-items:center;
 
-    @media(max-width: 425px){
+    @media(max-width: 430px){
         
         margin-left:1rem;
     
@@ -288,7 +298,7 @@ margin-right:1rem;
 margin-left:2rem;
         
     }
-@media(max-width: 425px){
+@media(max-width: 430px){
         display:flex;  
 }
 
@@ -309,7 +319,7 @@ margin-right:15%;
         }
 
 
-@media(max-width: 425px){
+@media(max-width: 430px){
     justify-content:center;
     margin-right:0;
     margin-bottom:3rem;
@@ -328,7 +338,7 @@ margin-top:3.7rem;
     margin-top:3rem;
     
       }
-@media(max-width: 425px){
+@media(max-width: 430px){
         
 }
 
@@ -338,7 +348,7 @@ export const ImgWrapper = styled.div`
 display:flex;
 justify-content:center;
 width:70%;
-@media(max-width: 425px){
+@media(max-width: 430px){
         display:flex;
         margin: 20px 0 25px 4rem;
      }

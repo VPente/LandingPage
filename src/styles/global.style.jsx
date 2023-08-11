@@ -28,7 +28,7 @@ export const GlobalStyle = createGlobalStyle`
         width:70px;
         height:70px;
       }
-      @media(max-width: 425px){
+      @media(max-width: 430px){
         width:70px;
         height:70px;
         margin-top:2rem;
@@ -56,12 +56,16 @@ export const GlobalStyle = createGlobalStyle`
 }
 .mainImg{
     width:90%;
-    @media(max-width: 425px){
+    @media(max-width: 430px){
         width:47vh!important;
       }
       @media(max-width: 375px){
         width:45vh!important;
     }
+    @media(max-width: 360px){
+        width:43vh!important;
+
+}
     @media(max-width: 320px){
         width:50vh!important;
 
@@ -70,7 +74,7 @@ export const GlobalStyle = createGlobalStyle`
 
 .footerImg{
     width:20%;
-    @media(max-width: 425px){
+    @media(max-width: 430px){
         width:40%;
     }
 }
@@ -84,7 +88,7 @@ export const GlobalStyle = createGlobalStyle`
     @media(max-width: 768px){
     width:50vh!important;
       }
-      @media(max-width: 425px){
+      @media(max-width: 430px){
     width:40vh!important;
     }
     @media(max-width: 320px){
