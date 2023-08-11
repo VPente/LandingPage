@@ -1,13 +1,19 @@
 import React from 'react';
 import {Topics, TextTopic, TopicTitle} from './style.jsx';
 import {ThirdContainer} from "../../../styles/styles.jsx"
+import iconLamp from '../../../assets/iconLamp.svg'
+import iconArrow from '../../../assets/iconArrow.svg'
+import iconPuzzle from '../../../assets/iconPuzzle.svg'
+import iconMap from '../../../assets/iconMap.svg'
+
+
 
 function Topic (){
     return(
       <ThirdContainer>
         <Topics>
             <span className='ImgWrapper'>
-              <img className='ImgTopic' src="'../../../../public/icons/iconLamp.svg" alt="" />
+              <img className='ImgTopic' src={iconLamp} alt="" />
             </span>
             <div>
               <TopicTitle>Intraempreendedorismo:</TopicTitle>
@@ -18,7 +24,7 @@ function Topic (){
           </Topics>
           <Topics>
             <span className='ImgWrapper'>
-              <img className='ImgTopic' src="'../../../../public/icons/iconArrow.svg" alt="" />
+              <img className='ImgTopic' src={iconArrow} alt="" />
             </span>
             <div>
               <TopicTitle>Aprendizado:</TopicTitle>
@@ -29,7 +35,7 @@ function Topic (){
           </Topics>
           <Topics>
             <span className='ImgWrapper'>
-              <img  className='ImgTopic' src="'../../../../public/icons/iconPuzzle.svg" alt="" />
+              <img  className='ImgTopic' src={iconPuzzle} alt="" />
             </span>
             <div>
               <TopicTitle>Comunicação:</TopicTitle>
@@ -40,7 +46,7 @@ function Topic (){
           </Topics>
           <Topics>
             <span className='ImgWrapper'>
-              <img className='ImgTopic' src="'../../../../public/icons/iconMap.svg" alt="" />
+              <img className='ImgTopic' src={iconMap} alt="" />
             </span>
             <div>
               <TopicTitle>Estratatégia:</TopicTitle>

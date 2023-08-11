@@ -1,8 +1,8 @@
 import styled from "styled-components";
+import Umbrella from '../assets/Umbrella.svg'
+
 export const Header = styled.header`
-
     padding:1rem;
-
     align-items: start;
     display: flex;
     box-shadow:1px;
@@ -18,7 +18,7 @@ export const Main = styled.section`
     background-position-x:95%;
     background-position-y:50%;
     background-size: 500px 400px;
-    background-image:url("../../../../public/images/Umbrella.svg");
+    background-image:url(${Umbrella});
     
     @media(max-width: 1440px){
     margin-right:0rem;

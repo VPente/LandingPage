@@ -2,7 +2,7 @@ import React, { useState, useRef } from 'react';
 import styled from 'styled-components';
 import '@fortawesome/fontawesome-free/css/all.css';
 import ReactPlayer from 'react-player'
-
+import EdCorporativa from '../../../assets/EdCorporativa.mp4'
 const VideoWrapper = styled.section`
   display: flex;
   justify-content: center;
@@ -57,7 +57,7 @@ const VideoPlayer = () => {
           <VideoContainer> 
             <ReactPlayer 
             className ='react-player' 
-            url={'../../../public/Videos/EdCorporativa.mp4'} 
+            url={EdCorporativa} 
             width= '100%'
             // playing
             height='100%'

@@ -7,7 +7,9 @@ import {Button} from '../components/Button/Button';
 import { Header, Main, Title ,TitleTwo,TitleTwoBack, TitleThree, TitleStrong,TopicHeader, BtnWrapper,BtnWrapper2,BtnWrapper3, ImgWrapper, AboutUs, } from '../../styles/styles';
 import { FirstContainer, SecondContainer, AboutSection } from '../../styles/styles';
 import { ButtonOne, ButtonTwo, ButtonTrhee } from '../components/Button/style';
-
+//Import Images firmament-logo.svg
+import firmamentLogo from "../../assets/firmament-logo.svg"
+import educacao from '../../assets/educacao.png'
 
 
 
@@ -16,11 +18,11 @@ export function Home() {
     <Wrapper>
       <Main>
         <Header>
-          <img fill = '#652f87 'className ='firmamentImg'src="../../../public/images/firmament-logo.svg" alt="" />
+          <img fill = '#652f87 'className ='firmamentImg'src={firmamentLogo} alt="" />
         </Header>
         <FirstContainer>
           <ImgWrapper>
-            <img className ='mainImg' src="../../../public/images/educacao.png" alt="" />
+            <img className ='mainImg' src={educacao} alt="" />
           </ImgWrapper>
           <BtnWrapper>
             <Title><TitleStrong>Educação Corporativa</TitleStrong></Title>
