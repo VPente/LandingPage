@@ -24,7 +24,12 @@ export const GlobalStyle = createGlobalStyle`
 
     width:90px;
     height:90px;
-    @media(max-width: 768px){
+    @media(max-width: 900px){
+        width:70px;
+        height:70px;
+        margin-top:1rem;
+      }
+    /* @media(max-width: 768px){
         width:70px;
         height:70px;
       }
@@ -33,7 +38,7 @@ export const GlobalStyle = createGlobalStyle`
         height:70px;
         margin-top:2rem;
         
-}   
+}    */
 
 }
 .ImgTopic{
@@ -43,7 +48,7 @@ export const GlobalStyle = createGlobalStyle`
     justify-content:center;
     align-items:center;
 
-    @media(max-width: 768px){
+    @media(max-width: 900px){
         width:55px;
         height:55px;
       }
@@ -56,7 +61,11 @@ export const GlobalStyle = createGlobalStyle`
 }
 .mainImg{
     width:90%;
-    @media(max-width: 430px){
+    @media(max-width: 900px){
+        width:280px!important;
+      }
+
+    /* @media(max-width: 430px){
         width:47vh!important;
       }
       @media(max-width: 375px){
@@ -69,12 +78,12 @@ export const GlobalStyle = createGlobalStyle`
     @media(max-width: 320px){
         width:50vh!important;
 
-    }
+    } */
 }
 
 .footerImg{
     width:20%;
-    @media(max-width: 430px){
+    @media(max-width: 900px){
         width:40%;
     }
 }
@@ -85,17 +94,9 @@ export const GlobalStyle = createGlobalStyle`
     @media(max-width: 1024px){
     width:40vh!important;
       }
-    @media(max-width: 768px){
+    @media(max-width: 900px){
     width:50vh!important;
       }
-      @media(max-width: 430px){
-    width:40vh!important;
-    }
-    @media(max-width: 320px){
-        width:100%!important;
-
-
-    }
 
 }
 

@@ -44,10 +44,14 @@ const VideoContainer = styled.div`
   justify-content:center;
   align-items:center;
   
-  @media(max-width: 430px){
+  @media(max-width: 900px){
     width:40vh!important;
        
     }
+  /* @media(max-width: 430px){
+    width:40vh!important;
+       
+    } */
   
 `;
 

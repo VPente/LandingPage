@@ -84,7 +84,7 @@ export const Title = styled.h1`
     line-height: normal;
     justify-content:center;
 
-    @media(max-width: 430px){
+    @media(max-width: 900px){
         font-size: 16px!important;
         width:46%;
         margin-top: 1rem;
@@ -109,7 +109,14 @@ export const TitleTwo = styled.h1`
         font-size: 25px!important;
     }
 
-    @media(max-width: 768px){
+    @media(max-width: 900px){
+        font-size: 16px!important;
+        text-align: justify;
+        margin-left:1rem;
+
+      }
+
+    /* @media(max-width: 768px){
         font-size: 25px!important;
          width:100%;
 
@@ -125,7 +132,7 @@ export const TitleTwo = styled.h1`
     @media(max-width: 320px){
         font-size: 18px!important;
 
-    }
+    } */
 
 `
 
@@ -145,7 +152,12 @@ export const TitleTwoBack = styled.span`
         font-size: 25px!important;
     }
 
-    @media(max-width: 430px){
+    @media(max-width: 900px){
+        font-size: 16px!important;
+        text-align: justify;
+
+        }
+    /* @media(max-width: 430px){
         font-size: 21px!important;
 }
     @media(max-width: 375px){
@@ -156,7 +168,7 @@ export const TitleTwoBack = styled.span`
     @media(max-width: 360px){
         font-size: 19px!important;
 
-    }
+    } */
 
     `
 
@@ -175,7 +187,12 @@ export const TitleThree = styled.h1`
     @media(max-width: 1024px){
         font-size: 25px!important;
     }
-    @media(max-width: 430px){
+    @media(max-width: 900px){
+        font-size: 18px!important;
+        
+
+    }
+    /* @media(max-width: 430px){
         font-size: 21px!important;
         
 }
@@ -185,7 +202,7 @@ export const TitleThree = styled.h1`
     @media(max-width: 360px){
         font-size: 19px!important;
 
-    }
+    } */
 
 `
 export const TitleStrong = styled.strong`
@@ -198,8 +215,14 @@ export const TitleStrong = styled.strong`
     @media(max-width: 1440px){
         font-size: 60px!important;
     }
+    @media(max-width: 900px){
+        font-size:1.5rem!important;
+        text-wrap: nowrap;
+        margin-top: 1rem;
+        margin-bottom: 2rem;
+    }
 
-    @media(max-width: 430px){
+    /* @media(max-width: 430px){
         font-size: 30px!important;
         text-wrap: nowrap;
         margin-top: 1rem;
@@ -211,7 +234,7 @@ export const TitleStrong = styled.strong`
     }
     @media(max-width: 320px){
         font-size: 24px!important;
-    }
+    } */
     `
 export const SubTitle = styled.h2`
     color: ${({theme}) => theme.colors.third};
@@ -227,7 +250,7 @@ export const FirstContainer = styled.section`
     margin: 20px 0 25px;
     align-items: center;
     display:flex;
-    @media(max-width: 430px){
+    @media(max-width: 900px){
         align-items:flex-start;
          display:flex;
          flex-direction:column;
@@ -239,7 +262,7 @@ export const FirstContainer = styled.section`
 export const SecondContainer = styled.section`
     /* border: 1px solid #FFF; */
     padding:0 10rem 10rem 10rem;
-    @media(max-width: 430px){
+    @media(max-width: 900px){
         padding:0 0.5rem 1rem 0.5rem;
         display:flex;
         flex-direction:column;
@@ -254,7 +277,7 @@ export const ThirdContainer = styled.section`
     align-items:flex-start;
     margin-top:2rem;
     margin-left:6rem;
-@media(max-width: 430px){
+@media(max-width: 900px){
         margin-left:2rem;
 }   
 `
@@ -277,7 +300,7 @@ export const TopicHeader = styled.section`
     margin-top:2rem;
     align-items:center;
 
-    @media(max-width: 430px){
+    @media(max-width: 900px){
         
         margin-left:1rem;
     
@@ -298,7 +321,7 @@ margin-right:1rem;
 margin-left:2rem;
         
     }
-@media(max-width: 430px){
+@media(max-width: 900px){
         display:flex;  
 }
 
@@ -319,7 +342,7 @@ margin-right:15%;
         }
 
 
-@media(max-width: 430px){
+@media(max-width: 900px){
     justify-content:center;
     margin-right:0;
     margin-bottom:3rem;
@@ -333,14 +356,12 @@ display:flex;
 justify-content:flex-start;
 margin-top:3.7rem;
 
-@media(max-width: 768px){
+@media(max-width: 900px){
     justify-content:center;
     margin-top:3rem;
     
       }
-@media(max-width: 430px){
-        
-}
+
 
       
 `
@@ -348,7 +369,7 @@ export const ImgWrapper = styled.div`
 display:flex;
 justify-content:center;
 width:70%;
-@media(max-width: 430px){
+@media(max-width: 900px){
         display:flex;
         margin: 20px 0 25px 4rem;
      }
@@ -359,7 +380,7 @@ export const AboutSection = styled.div`
     justify-content:space-between;
     margin-top:7rem;
     
-    @media(max-width: 768px){
+    @media(max-width: 900px){
     display:flex;
     flex-direction:column;
     margin-top:4rem;
@@ -370,7 +391,7 @@ export const AboutSection = styled.div`
 `
 export const AboutUs = styled.div`
 align-items:start;
-@media(max-width: 768px){
+@media(max-width: 900px){
     margin-left:0;
       }
 

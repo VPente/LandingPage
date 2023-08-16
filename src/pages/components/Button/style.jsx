@@ -33,7 +33,13 @@ export const ButtonOne = styled.button`
         width: 30%;
 
     }
-    @media(max-width: 768px){
+    @media(max-width: 900px){
+        font-size: 16px;
+        padding: 12px;
+        width: 70%;
+
+      }
+    /* @media(max-width: 768px){
         font-size: 18px;
         padding: 15px;
         width: 40%;
@@ -50,7 +56,7 @@ export const ButtonOne = styled.button`
       padding: 10px;
         width: 60%;
 
-    }
+    } */
 
 `
 
@@ -91,7 +97,16 @@ export const ButtonTwo = styled.button`
         padding: 15px;
         width: 60%;
     }
-@media(max-width: 768px){
+
+    @media(max-width: 900px){
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-size: 14px;
+        padding: 15px;
+        width: 70%;
+      }
+/* @media(max-width: 768px){
     display:flex;
     justify-content:center;
     align-items:center;
@@ -102,7 +117,7 @@ export const ButtonTwo = styled.button`
         padding: 10px;
         width: 80%;
 
-    }
+    } */
 `
 
 export const ButtonTrhee = styled.button`
@@ -145,7 +160,12 @@ export const ButtonTrhee = styled.button`
 
 
     }
-    @media(max-width: 430px){
+    @media(max-width: 900px){
+        font-size: 16px;
+        padding: 10px;
+        width: 60%;
+      }
+    /* @media(max-width: 430px){
         font-size: 16px;
         padding: 10px;
         width: 60%;
@@ -155,5 +175,5 @@ export const ButtonTrhee = styled.button`
         padding: 6px;
         width: 60%;
 
-    }
+    } */
 `
