@@ -91,8 +91,25 @@ export const Title = styled.h1`
         
       }
       
-    
     `
+export const TitleStrong = styled.strong`
+font-size: 85px;
+font-style: normal;
+font-weight: 900;
+line-height: normal;
+color: #652f87;
+
+@media(max-width: 1440px){
+    font-size: 60px!important;
+}
+@media(max-width: 900px){
+    font-size:1.4rem!important;
+    text-wrap: nowrap;
+    margin-top: 1rem;
+    margin-bottom: 2rem; 
+    
+}
+`   
 export const TitleTwo = styled.h1`
     color: ${({theme}) => theme.colors.primary};
     font-size: 45px;
@@ -164,24 +181,7 @@ export const TitleThree = styled.h1`
     
 
 `
-export const TitleStrong = styled.strong`
-    font-size: 85px;
-    font-style: normal;
-    font-weight: 900;
-    line-height: normal;
-    color: #652f87;
-   
-    @media(max-width: 1440px){
-        font-size: 60px!important;
-    }
-    @media(max-width: 900px){
-        font-size:1.5rem!important;
-        text-wrap: nowrap;
-        margin-top: 1rem;
-        margin-bottom: 2rem; 
-        
-    }
-    `
+
 export const SubTitle = styled.h2`
     color: ${({theme}) => theme.colors.third};
 
