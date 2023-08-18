@@ -86,10 +86,10 @@ export const Title = styled.h1`
 
     @media(max-width: 900px){
         font-size: 16px!important;
-        width:46%;
+        width:50%;
         margin-top: 1rem;
         margin-bottom: 2rem;
-    
+        
       }
       
     
@@ -116,23 +116,6 @@ export const TitleTwo = styled.h1`
 
       }
 
-    /* @media(max-width: 768px){
-        font-size: 25px!important;
-         width:100%;
-
-      }
-    
-      @media(max-width: 430px){
-        font-size: 24px!important;
-        margin:0;
-}
-@media(max-width: 375px){
-    font-size: 22px!important;
-    }
-    @media(max-width: 320px){
-        font-size: 18px!important;
-
-    } */
 
 `
 
@@ -157,19 +140,6 @@ export const TitleTwoBack = styled.span`
         text-align: justify;
 
         }
-    /* @media(max-width: 430px){
-        font-size: 21px!important;
-}
-    @media(max-width: 375px){
-    font-size: 20px!important;
-    }
-    
-
-    @media(max-width: 360px){
-        font-size: 19px!important;
-
-    } */
-
     `
 
 export const TitleThree = styled.h1`
@@ -192,17 +162,7 @@ export const TitleThree = styled.h1`
         
 
     }
-    /* @media(max-width: 430px){
-        font-size: 21px!important;
-        
-}
-@media(max-width: 375px){
-    font-size: 20px!important;
-    }
-    @media(max-width: 360px){
-        font-size: 19px!important;
-
-    } */
+    
 
 `
 export const TitleStrong = styled.strong`
@@ -219,22 +179,9 @@ export const TitleStrong = styled.strong`
         font-size:1.5rem!important;
         text-wrap: nowrap;
         margin-top: 1rem;
-        margin-bottom: 2rem;
+        margin-bottom: 2rem; 
+        
     }
-
-    /* @media(max-width: 430px){
-        font-size: 30px!important;
-        text-wrap: nowrap;
-        margin-top: 1rem;
-        margin-bottom: 2rem;
-    
-      }
-    @media(max-width: 375px){
-        font-size: 28px!important;
-    }
-    @media(max-width: 320px){
-        font-size: 24px!important;
-    } */
     `
 export const SubTitle = styled.h2`
     color: ${({theme}) => theme.colors.third};
@@ -251,10 +198,11 @@ export const FirstContainer = styled.section`
     align-items: center;
     display:flex;
     @media(max-width: 900px){
-        align-items:flex-start;
+         margin: 20px 0 0px;
          display:flex;
          flex-direction:column;
-         margin: 20px 0 25px;
+         margin-left:0;
+         align-items:center;
       }
 
 
@@ -306,11 +254,14 @@ export const TopicHeader = styled.section`
     
 
 }
-    
-   
-    
+     
 `
-export const BtnWrapper = styled.section`
+export const CenteredButtonContainer = styled.div`
+  display: flex;
+  justify-content: center;
+  margin-top: 20px; 
+`;
+export const BtnWrapper = styled.div`
 display:flex;
 justify-content: flex-start;
 flex-direction: column;
@@ -322,7 +273,12 @@ margin-left:2rem;
         
     }
 @media(max-width: 900px){
-        display:flex;  
+    justify-content:center;
+    margin-right:0px;
+margin-left:0px;
+text-align: center;
+
+
 }
 
 
@@ -371,7 +327,7 @@ justify-content:center;
 width:70%;
 @media(max-width: 900px){
         display:flex;
-        margin: 20px 0 25px 4rem;
+        margin: 20px 0 10px 0rem;
      }
       
 `

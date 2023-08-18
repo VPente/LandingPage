@@ -164,16 +164,8 @@ export const ButtonTrhee = styled.button`
         font-size: 16px;
         padding: 10px;
         width: 60%;
-      }
-    /* @media(max-width: 430px){
-        font-size: 16px;
-        padding: 10px;
-        width: 60%;
-      }
-      @media(max-width: 320px){
-        font-size: 13px;
-        padding: 6px;
-        width: 60%;
+        margin: 0px 0 0px;
+        
 
-    } */
+      }
 `

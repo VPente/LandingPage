@@ -62,7 +62,7 @@ export const GlobalStyle = createGlobalStyle`
 .mainImg{
     width:90%;
     @media(max-width: 900px){
-        width:280px!important;
+        width:360px!important;
       }
 
     /* @media(max-width: 430px){
