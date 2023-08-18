@@ -19,7 +19,7 @@ function Topic (){
               <TopicTitle>Intraempreendedorismo:</TopicTitle>
             </div>
             <div className='textDiv'>
-              <TextTopic> A mentalidade Inovadora para Resultados.</TextTopic>
+              <TextTopic> A Mentalidade Inovadora para Resultados.</TextTopic>
             </div>
           </Topics>
           <Topics>
