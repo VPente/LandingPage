@@ -48,10 +48,6 @@ const VideoContainer = styled.div`
     width:40vh!important;
        
     }
-  /* @media(max-width: 430px){
-    width:40vh!important;
-       
-    } */
   
 `;
 

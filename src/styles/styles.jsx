@@ -12,7 +12,6 @@ export const Header = styled.header`
 export const Main = styled.section`
     display: block;
     flex-direction: column;
-    /* background: linear-gradient(0.50turn, #2a63ff 40%, #2196F3 , #9C27B0 ); */
     background-color: rgb(255, 255, 255);
     background-repeat: no-repeat;
     background-position-x:95%;
@@ -204,11 +203,8 @@ export const FirstContainer = styled.section`
          margin-left:0;
          align-items:center;
       }
-
-
 `
 export const SecondContainer = styled.section`
-    /* border: 1px solid #FFF; */
     padding:0 10rem 10rem 10rem;
     @media(max-width: 900px){
         padding:0 0.5rem 1rem 0.5rem;
@@ -358,7 +354,5 @@ export const Text = styled.p`
 width:70%;
 margin-top:1rem;
 color: ${({theme}) => theme.colors.secondary};
-
-
 margin-left:5rem;
 `

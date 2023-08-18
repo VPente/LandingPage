@@ -30,31 +30,6 @@ export const  Topics = styled.div`
         box-shadow: rgba(255, 196, 0, 0.4) 0px 0px 0px 2px, rgba(255, 187, 0, 0.65) 0px 4px 6px -1px, rgba(255, 166, 0, 0.08) 0px 1px 0px inset; 
         margin-top:1.5rem;
       }
-      /* @media(max-width: 430px){
-        width:40vh;
-        height:30vh;
-        border-radius:20px;
-        align-items:center;
-        flex-direction:column;   
-        box-shadow: rgba(255, 196, 0, 0.4) 0px 0px 0px 2px, rgba(255, 187, 0, 0.65) 0px 4px 6px -1px, rgba(255, 166, 0, 0.08) 0px 1px 0px inset; 
-        margin-top:1.5rem; 
-}
-
-@media(max-width: 360px){
-        width:35vh;
-        height:35vh;
-        margin-top:1.5rem;
-        margin-left:.8rem;
-    }
-
-
-@media(max-width: 320px){
-        width:40vh;
-        height:40vh;
-        margin-top:1.5rem;
-        margin-left:1rem;
-    } */
-
 
 `
 export const TopicTitle = styled.h2`
@@ -83,21 +58,6 @@ export const TopicTitle = styled.h2`
         display:flex;
         align-items:center;
       }
-      /* @media(max-width: 430px){
-        margin-top:1rem;
-        font-size:1.5rem!important;
-        display:flex;
-        align-items:center;
-}
-
-@media(max-width: 360px){
-  font-size:1.2rem!important;
-
-    }
-@media(max-width: 320px){
-  font-size:1rem!important;
-
-    } */
            
 
 
@@ -118,13 +78,6 @@ export const TextTopic = styled.p`
     @media(max-width: 900px){
         font-size:12px!important;
     }
-      /* @media(max-width: 768px){
-        font-size:0.85rem!important;
-      }
-      @media(max-width: 430px){
-        margin-top:0rem;
-        font-size:0.8rem!important;  
-} */
 
 
 `

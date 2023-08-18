@@ -29,16 +29,6 @@ export const GlobalStyle = createGlobalStyle`
         height:70px;
         margin-top:1rem;
       }
-    /* @media(max-width: 768px){
-        width:70px;
-        height:70px;
-      }
-      @media(max-width: 430px){
-        width:70px;
-        height:70px;
-        margin-top:2rem;
-        
-}    */
 
 }
 .ImgTopic{
@@ -64,21 +54,6 @@ export const GlobalStyle = createGlobalStyle`
     @media(max-width: 900px){
         width:360px!important;
       }
-
-    /* @media(max-width: 430px){
-        width:47vh!important;
-      }
-      @media(max-width: 375px){
-        width:45vh!important;
-    }
-    @media(max-width: 360px){
-        width:43vh!important;
-
-}
-    @media(max-width: 320px){
-        width:50vh!important;
-
-    } */
 }
 
 .footerImg{
