@@ -84,10 +84,10 @@ export const Title = styled.h1`
     justify-content:center;
 
     @media(max-width: 900px){
-        font-size: 16px!important;
-        width:50%;
+        font-size:1.5rem!important;
+        text-wrap: nowrap;
         margin-top: 1rem;
-        margin-bottom: 2rem;
+        margin-bottom: 2rem; 
         
       }
       
