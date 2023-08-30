@@ -63,11 +63,12 @@ export const TopicTitle = styled.h2`
 
 `
 export const TextTopic = styled.p`
-    color: ${({theme}) => theme.colors.secondary};
+    color: ${({theme}) => theme.colors.primary};
     text-align:center;
     margin-left:1rem;
     margin-top:1rem;
     font-size:2rem;
+    font-weight:400;
 
     @media(max-width: 1440px){
         font-size:1.7rem!important;

@@ -5,17 +5,18 @@ export const ButtonOne = styled.button`
     padding: 30px;
     font-weight: 700;
     
+    
     background-color: #652f87;
     color: #ffffff;
 
     border-radius: 5px;
     margin: 12px 0 0px;
-    border: 3px solid "black";
 
     cursor: pointer;
     transition: filter 0.2s;
-    outline:none;
+    outline:0;
     font-size: 28px;
+    border:none;
     &:hover{
         filter: brightness(0.9);
     }
@@ -111,6 +112,8 @@ export const ButtonTrhee = styled.button`
     justify-content:center;
 
     border:none;
+    outline: 0;
+
 
 &:hover{
     filter: brightness(0.9);

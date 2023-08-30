@@ -15,14 +15,14 @@ export const Main = styled.section`
     background-color: rgb(255, 255, 255);
     background-repeat: no-repeat;
     background-position-x:95%;
-    background-position-y:50%;
+    background-position-y:40%;
     background-size: 500px 400px;
     background-image:url(${Umbrella});
     
     @media(max-width: 1440px){
     margin-right:0rem;
     background-position-x:99%;
-    background-position-y:44%;
+    background-position-y:40%;
     background-size: 400px 300px;
 
       }
@@ -30,7 +30,7 @@ export const Main = styled.section`
     @media(max-width: 1024px){
     margin-right:0rem;
     background-position-x:95%;
-    background-position-y:49%;
+    background-position-y:40%;
     background-size: 300px 200px;
 
       }
@@ -38,7 +38,7 @@ export const Main = styled.section`
       @media(max-width: 768px){
         margin-right:0rem;
     background-position-x:99%;
-    background-position-y:57%;
+    background-position-y:40%;
     background-size: 300px 200px;
       }
       @media(max-width: 430px){
@@ -53,7 +53,7 @@ export const Main = styled.section`
     
         margin-right:0rem;
     background-position-x:99%;
-    background-position-y:39%;
+    background-position-y:30%;
     background-size: 100px 200px;
 
     }
@@ -62,7 +62,7 @@ export const Main = styled.section`
     width:100%; 
         margin-right:0rem;
     background-position-x:99%;
-    background-position-y:38.5%;
+    background-position-y:30%;
     background-size: 100px 200px;
 
     }
@@ -71,18 +71,23 @@ export const Main = styled.section`
 ` 
 
 
-export const Title = styled.h1`
+export const Title = styled.div`
     color: ${({theme}) => theme.colors.primary};
     //margin:5rem 30rem 5rem 35rem;
-    width:46%;
+    width:100%;
     margin-top: 5rem;
     margin-bottom: 5rem;
     font-size: 48px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-    justify-content:center;
+    align-items:center;
+    
+@media (min-width:1024px) {
+    margin-inline-start:5rem;
 
+    
+}
     @media(max-width: 900px){
         font-size:1.5rem!important;
         text-wrap: nowrap;
@@ -98,7 +103,6 @@ font-style: normal;
 font-weight: 900;
 line-height: normal;
 color: #652f87;
-
 @media(max-width: 1440px){
     font-size: 60px!important;
 }
@@ -206,6 +210,7 @@ export const FirstContainer = styled.section`
 `
 export const SecondContainer = styled.section`
     padding:0 10rem 10rem 10rem;
+
     @media(max-width: 900px){
         padding:0 0.5rem 1rem 0.5rem;
         display:flex;
@@ -239,7 +244,7 @@ export const FourthContainer = styled.section`
 export const TopicHeader = styled.section`
     display:flex;
     justify-content:center;
-    margin-left:10%;
+    margin-left:8%;
     margin-right:10%;
     margin-top:2rem;
     align-items:center;
