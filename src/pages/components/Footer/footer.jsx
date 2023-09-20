@@ -37,12 +37,12 @@ const Footer = () => {
             <IconBox><img src={iconEmail} alt="" /></IconBox>
             jaqueline@firmament.com.br
           </ContactTopic>
-          <ContactTopic>
-            <IconBox><img src={iconInstagram} alt="" /></IconBox>
+          <ContactTopic href='https://www.instagram.com/firmament.group/?__coig_restricted=1'target="_blank">
+            <IconBox ><img src={iconInstagram} alt="" /></IconBox>
             @firmament.group
           </ContactTopic>
-          <ContactTopic>
-            <IconBox><img src={iconLinkedin} alt="" /></IconBox>
+          <ContactTopic href='https://www.linkedin.com/company/jaque-bitencourt-educa%C3%A7%C3%A3o-corporativa/'target="_blank">
+            <IconBox ><img src={iconLinkedin} alt="" /></IconBox>
              Firmament Inovação Corporativa
           </ContactTopic>
         </ColumnTwo>
