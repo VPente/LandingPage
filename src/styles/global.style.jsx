@@ -67,17 +67,6 @@ export const GlobalStyle = createGlobalStyle`
   height:100%;
 
 }
-.react-player{
-    @media(max-width: 1440px){
-    width:70vh!important;
-      }
-    @media(max-width: 1024px){
-    width:40vh!important;
-      }
-    @media(max-width: 900px){
-    width:50vh!important;
-      }
 
-}
 
 `

@@ -32,8 +32,8 @@ export const Umbrella = styled.span`
     @media(max-width: 900px){
         width:50px;
         height:50px;
-        right:-50px;
-        top:10px;
+        right:-40px;
+        top:5px;
     
     }
     
@@ -76,7 +76,7 @@ color: #652f87;
     font-size: 60px!important;
 }
 @media(max-width: 900px){
-    font-size:1.4rem!important;
+    font-size:1.7rem!important;
     text-wrap: nowrap;
     margin-top: 1rem;
     margin-bottom: 2rem; 

@@ -29,7 +29,7 @@ const VideoWrapper = styled.section`
 
       }
       @media(max-width: 768px){
-        margin-top:5rem;
+        margin-top:1rem;
       }
       @media(max-width: 425px){
         margin-left:0rem;

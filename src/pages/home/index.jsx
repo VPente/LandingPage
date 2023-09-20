@@ -25,9 +25,9 @@ export function Home() {
         <VideoPlayer></VideoPlayer>
           
           <BtnWrapper>
-          <Umbrella>
+             <Umbrella>
                       <img className ='UmbrellaBG'src={UmbrellaSvg} alt="" />
-                  </Umbrella>
+              </Umbrella>
             <Title><TitleStrong>Educação Corporativa</TitleStrong></Title>
               <CenteredButtonContainer>
                 <Button url="https://api.whatsapp.com/send?phone=++554898442525&text=Olá, gostaria de informações de como a educação corporativa poderá se aplicar na empresa que atuo!" Children = 'Quero Conhecer' component={ButtonTrhee} ></Button>
@@ -43,8 +43,8 @@ export function Home() {
                 </BtnWrapper3>  
               </AboutUs>
               {/* <ImgWrapper>
-            <img className ='mainImg' src={educacao} alt="" />
-          </ImgWrapper> */}
+              <img className ='mainImg' src={educacao} alt="" />
+              </ImgWrapper> */}
             </AboutSection>
         </SecondContainer>
         
