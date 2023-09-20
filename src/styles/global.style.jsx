@@ -62,6 +62,11 @@ export const GlobalStyle = createGlobalStyle`
         width:40%;
     }
 }
+.UmbrellaBG{
+  width:100%;
+  height:100%;
+
+}
 .react-player{
     @media(max-width: 1440px){
     width:70vh!important;

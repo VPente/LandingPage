@@ -1,5 +1,4 @@
 import styled from "styled-components";
-import Umbrella from '../assets/Umbrella.svg'
 
 export const Header = styled.header`
     padding:1rem;
@@ -12,64 +11,34 @@ export const Header = styled.header`
 export const Main = styled.section`
     display: block;
     flex-direction: column;
-    background-color: rgb(255, 255, 255);
-    background-repeat: no-repeat;
-    background-position-x:95%;
-    background-position-y:40%;
-    background-size: 500px 400px;
-    background-image:url(${Umbrella});
     
-    @media(max-width: 1440px){
-    margin-right:0rem;
-    background-position-x:99%;
-    background-position-y:40%;
-    background-size: 400px 300px;
-
-      }
-
-    @media(max-width: 1024px){
-    margin-right:0rem;
-    background-position-x:95%;
-    background-position-y:40%;
-    background-size: 300px 200px;
-
-      }
-
-      @media(max-width: 768px){
-        margin-right:0rem;
-    background-position-x:99%;
-    background-position-y:40%;
-    background-size: 300px 200px;
-      }
-      @media(max-width: 430px){
-        width:100%; 
-        margin-right:0rem;
-    background-position-x:99%;
-    background-position-y:40%;
-    background-size: 100px 200px;
-}
-
-@media(max-width: 360px){
     
-        margin-right:0rem;
-    background-position-x:99%;
-    background-position-y:30%;
-    background-size: 100px 200px;
-
-    }
-
-@media(max-width: 320px){
-    width:100%; 
-        margin-right:0rem;
-    background-position-x:99%;
-    background-position-y:30%;
-    background-size: 100px 200px;
-
-    }
-
+    
+    
     
 ` 
+export const Umbrella = styled.span`
+    width:300px;
+    height:300px;
+    right:-70px;
+    top:80px;
+    position:absolute;
+    z-index:-1;
+    @media(max-width: 1600px){
+        width:250px;
+        height:250px;
+        right:-20px;
+    }
+    @media(max-width: 900px){
+        width:50px;
+        height:50px;
+        right:-50px;
+        top:10px;
+    
+    }
+    
 
+`
 
 export const Title = styled.div`
     color: ${({theme}) => theme.colors.primary};
@@ -116,12 +85,13 @@ color: #652f87;
 `   
 export const TitleTwo = styled.h1`
     color: ${({theme}) => theme.colors.primary};
-    font-size: 45px;
+    font-size: 56px;
     font-style: normal;
-    line-height: normal;
+    font-weight: 400;
+    
     margin-top:2rem;
     width:90%;
-    
+    text-align:justify;
     @media(max-width: 1440px){
         font-size: 35px!important;
     }
@@ -141,9 +111,9 @@ export const TitleTwo = styled.h1`
 
 export const TitleTwoBack = styled.span`
     color: ${({theme}) => theme.colors.primary};
-    font-size: 45px;
+    font-size: 56px;
     font-style: normal;
-    /* font-weight: 600; */
+    font-weight: 600;
     line-height: normal;
     margin-top:2rem;
     background-color: rgb(232, 182, 58, 0.4);
@@ -164,12 +134,12 @@ export const TitleTwoBack = styled.span`
 
 export const TitleThree = styled.h1`
     color: ${({theme}) => theme.colors.primary};
-    font-size: 54px;
+    font-size: 45px;
     font-style: normal;
     font-weight: 600;
     line-height: normal;
     margin-top:2rem;
-    
+    width:100%;
     @media(max-width: 1440px){
         font-size: 35px!important;
     }
@@ -209,7 +179,7 @@ export const FirstContainer = styled.section`
       }
 `
 export const SecondContainer = styled.section`
-    padding:0 10rem 10rem 10rem;
+    padding:0 5rem 10rem 10rem;
 
     @media(max-width: 900px){
         padding:0 0.5rem 1rem 0.5rem;
@@ -244,7 +214,7 @@ export const FourthContainer = styled.section`
 export const TopicHeader = styled.section`
     display:flex;
     justify-content:center;
-    margin-left:8%;
+    margin-left:6%;
     margin-right:10%;
     margin-top:2rem;
     align-items:center;
@@ -267,6 +237,7 @@ display:flex;
 justify-content: flex-start;
 flex-direction: column;
 margin-right:10rem;
+position: relative;
 
 @media(max-width: 1440px){
 margin-right:1rem;
@@ -310,8 +281,8 @@ margin-right:15%;
 `
 export const BtnWrapper3 = styled.div`
 display:flex;
-justify-content:flex-start;
-margin-top:3.7rem;
+justify-content:center;
+margin-top:8rem;
 
 @media(max-width: 900px){
     justify-content:center;

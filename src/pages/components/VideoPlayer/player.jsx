@@ -10,16 +10,22 @@ const VideoWrapper = styled.section`
   
   
   margin-right:4rem;
+  margin-left:8rem;
+  margin-top:2rem;
 
-  width:100%;
+  width:120vh;
   height:100%;
-  @media(max-width: 1440px){
+  @media(max-width: 1600px){
     margin-right:0rem;
     margin-top:1.2rem;
+    width:120vh;
+
 
     }
       @media(max-width: 1024px){
     margin-top:1.8rem;
+    width:100%;
+
 
       }
       @media(max-width: 768px){
@@ -28,6 +34,8 @@ const VideoWrapper = styled.section`
       @media(max-width: 425px){
         margin-left:0rem;
        justify-content: center;
+
+
        
     }
       
@@ -37,18 +45,31 @@ const VideoContainer = styled.div`
   width:100%;
   height:100%;
 
-  box-shadow: #ffffff 0px 0px 0px 2px inset, rgb(255, 255, 255) 10px -10px 0px -3px,  rgba(111, 192, 220, 1) 10px -10px, rgb(255, 255, 255) 20px -20px 0px -3px,rgba(232, 182, 58, 1) 20px -20px, rgb(255, 255, 255) 30px -30px 0px -3px,  rgba(101, 47, 135, 1) 30px -30px;
   
   
   display:flex;
   justify-content:center;
   align-items:center;
-  
+  @media(max-width: 16000px){
+    width:100vh!important;
+       
+    }
   @media(max-width: 900px){
     width:40vh!important;
        
     }
-  
+    .react-player{
+    @media(max-width: 1440px){
+    width:100vh!important;
+      }
+    @media(max-width: 1024px){
+    width:40vh!important;
+      }
+    @media(max-width: 900px){
+    width:50vh!important;
+      }
+
+}
 `;
 
 const VideoPlayer = () => {

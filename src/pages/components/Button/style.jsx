@@ -44,7 +44,7 @@ export const ButtonOne = styled.button`
 `
 
 export const ButtonTwo = styled.button`
-   width: 50%;
+   width: 34%;
     padding: 30px;
     font-weight: 700;
     background-color: #E8B63A;
