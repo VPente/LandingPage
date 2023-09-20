@@ -55,7 +55,7 @@ const VideoContainer = styled.div`
        
     }
   @media(max-width: 900px){
-    width:40vh!important;
+    width:41vh!important;
        
     }
     .react-player{

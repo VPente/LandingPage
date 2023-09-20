@@ -80,6 +80,8 @@ color: #652f87;
     text-wrap: nowrap;
     margin-top: 1rem;
     margin-bottom: 2rem; 
+    margin:0 auto;
+
     
 }
 `   
@@ -102,7 +104,7 @@ export const TitleTwo = styled.h1`
     @media(max-width: 900px){
         font-size: 16px!important;
         text-align: justify;
-        margin-left:1rem;
+        margin:0 auto;
 
       }
 
@@ -128,6 +130,7 @@ export const TitleTwoBack = styled.span`
     @media(max-width: 900px){
         font-size: 16px!important;
         text-align: justify;
+        
 
         }
     `
@@ -149,6 +152,8 @@ export const TitleThree = styled.h1`
     }
     @media(max-width: 900px){
         font-size: 18px!important;
+        margin:0 auto;
+        margin-left:0.6rem;
         
 
     }
@@ -171,10 +176,10 @@ export const FirstContainer = styled.section`
     align-items: center;
     display:flex;
     @media(max-width: 900px){
-         margin: 20px 0 0px;
+         margin: 20px 0px 0px;
          display:flex;
          flex-direction:column;
-         margin-left:0;
+         margin-left:0px;
          align-items:center;
       }
 `
@@ -247,7 +252,7 @@ margin-left:2rem;
 @media(max-width: 900px){
     justify-content:center;
     margin-right:0px;
-margin-left:0px;
+margin-left:-2.5rem;
 text-align: center;
 
 
