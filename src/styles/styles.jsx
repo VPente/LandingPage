@@ -20,8 +20,8 @@ export const Main = styled.section`
 export const Umbrella = styled.span`
     width:300px;
     height:300px;
-    right:-70px;
-    top:80px;
+    right:-120px;
+    top:90px;
     position:absolute;
     z-index:-1;
     @media(max-width: 1600px){
